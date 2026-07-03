@@ -28,6 +28,10 @@ output/
 tmp/
 archive/
 paper/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
 
 # Few-shot/model outputs
 exp/few_shot/runs/

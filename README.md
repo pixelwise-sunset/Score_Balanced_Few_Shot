@@ -10,25 +10,17 @@ predictions, raw LLM outputs, model checkpoints, or RAG indexes.
 
 ## Data
 
-Datasets are intentionally not included in this code repository. To reproduce
-the experiments, place the official/cleaned CSV files at the following
-project-relative paths:
+Datasets are intentionally not included in this code repository. The experiment
+CSV files are distributed as a separate dataset archive. To reproduce the
+experiments, extract that archive at the repository root so that it creates:
 
-- `datasets/mediqa-eval-2026-valid.csv`
-- `datasets/mediqa-eval-2026-valid-aligned.csv`
-- `datasets/mediqa-eval-2026-valid-folded.csv`
-- `datasets/mediqa-eval-2026-valid_1rater_en.csv`
-- `datasets/mediqa-eval-2026-valid_1rater_zh.csv`
-- `datasets/aligned_en.csv`
-- `datasets/aligned_en_folded.csv`
-- `datasets/aligned_zh.csv`
-- `datasets/aligned_zh_folded.csv`
-- `datasets/test_assets/test_aligned_en.csv`
-- `datasets/test_assets/test_aligned_zh.csv`
-- `datasets/test_assets/test_gold_en.csv`
-- `datasets/test_assets/test_gold_zh.csv`
-- `datasets/test_assets/test_template_en.csv`
-- `datasets/test_assets/test_template_zh.csv`
+```text
+datasets/
+```
+
+The archive contains the official MEDIQA-EVAL 2026 development/test CSVs and
+the aligned English/Chinese CSVs used by the scripts. Generated predictions and
+model outputs are not part of the dataset archive.
 
 ## External Runtime Assets
 
