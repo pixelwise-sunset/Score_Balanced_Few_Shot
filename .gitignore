@@ -1,0 +1,59 @@
+# Local environments
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data and generated artifacts
+datasets/
+data/
+results/
+logs/
+runs/
+output/
+tmp/
+archive/
+paper/
+
+# Few-shot/model outputs
+exp/few_shot/runs/
+*.jsonl
+prediction*.csv
+prediction*.json
+qwen*.json
+aggregate_score.json
+input_all_folds*.json
+
+# RAG indexes/docstores and model assets
+RAG/storage*/
+RAG/**/cache/
+*.emb.npy
+*.npy
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+models/
+
+# Rendered figures/documents
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html

@@ -1,0 +1,22 @@
+# Minimal Python dependencies for the reproducibility code.
+# GPU-specific packages such as torch/flash-attn may need installation variants
+# matching the target CUDA environment. See environment.yaml and
+# requirements_fewshot.txt for the original School environment snapshots.
+
+accelerate
+draccus
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
+sentence-transformers
+tqdm
+torch
+transformers
+
+# Optional, only for the LlamaIndex RAG index utilities.
+llama-index
+llama-index-embeddings-huggingface
+
